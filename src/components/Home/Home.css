@@ -1,5 +1,4 @@
 body {
-    /* background-color: bisque; */
     margin: 0;
     padding: 0;
     background-image: url(../../../public/image/background.jpg);
@@ -51,7 +50,6 @@ ul>li:hover {
 }
 
 li {
-    /* list-style: none; */
     display: inline-block;
     border: 1px solid black;
     border-radius: 5px;

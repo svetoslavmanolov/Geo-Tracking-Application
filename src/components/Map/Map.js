@@ -67,6 +67,13 @@ export default function Map() {
         const allPlaces = [...initialState.places, allDataForSinglePlace]
         localStorage.setItem('places', JSON.stringify(allPlaces));
         alert(`You have successfully created a new location - ${singlePlace.name}`)
+        setValues({
+            name: '',
+            description: '',
+            category: '',
+            lat: '',
+            lng: ''
+        });
     }
 
     const mapRef = useRef();

@@ -65,3 +65,13 @@ input {
   padding: 5px;
 }
 
+@media (max-width: 440px) {
+  #loginForm {
+    width: 80%;
+  }
+
+  #loginForm input {
+    width: 70%;
+  }
+}
+

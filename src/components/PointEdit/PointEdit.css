@@ -23,7 +23,7 @@
 
 .modal {
   width: 20rem;
-  height: 26rem;
+  height: 26rem; 
   position: fixed;
   border-radius: 10px;
   background-color: white;
@@ -69,6 +69,12 @@
   border-radius: 1em;
   background-color: rgb(81, 194, 123);
   font-weight: bold;
+  cursor: pointer;
+}
+
+#action-save:disabled {
+  background-color: rgb(125, 126, 125);
+  cursor: no-drop;
 }
 
 #action-cancel {
@@ -77,4 +83,5 @@
   border-radius: 1em;
   background-color: rgb(231, 108, 108);
   font-weight: bold;
+  cursor: pointer;
 }

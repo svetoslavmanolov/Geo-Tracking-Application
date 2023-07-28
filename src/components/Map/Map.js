@@ -185,7 +185,7 @@ export default function Map() {
                             type="submit"
                             className="submitButton"
                             disabled={!isFormValid}
-                            value="Create Place"
+                            value="Create Point"
                         />
                     </div>
                 </form>

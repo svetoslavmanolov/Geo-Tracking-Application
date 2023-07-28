@@ -98,6 +98,11 @@
   background-color: rgba(220, 255, 225, 0.7);
 }
 
+.createForm input[type="submit"]:disabled {
+  transform: scale(1);
+  cursor: no-drop;
+}
+
 .controls label {
   font-size: 1.3rem;
   color: black;

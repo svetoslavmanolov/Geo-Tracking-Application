@@ -22,7 +22,6 @@
   color: black;
   font-weight: bold;
   font-size: 25px;
-
 }
 
 #loginForm input {
@@ -38,6 +37,12 @@
   margin-bottom: 5%;
   width: 40%;
   font-size: 20px;
+  cursor: pointer;
+}
+
+#loginForm input[type="submit"]:disabled {
+  transform: scale(1);
+  cursor: no-drop;
 }
 
 #loginForm .create-error {

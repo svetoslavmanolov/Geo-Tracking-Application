@@ -104,11 +104,11 @@ export default function Map() {
                                 placeholder="name..."
                                 value={values.name}
                                 onChange={changeHandler}
-                                onBlur={(e) => minLength(e, 3)}
+                                onKeyUp={(e) => minLength(e, 3)}
                             />
                             {errors.name &&
                                 <p className="create-error">
-                                    Name should be at least 3 characters long!
+                                    Name must be at least 3 characters long!
                                 </p>
                             }
                         </div>
@@ -121,11 +121,11 @@ export default function Map() {
                                 placeholder="description..."
                                 value={values.description}
                                 onChange={changeHandler}
-                                onBlur={(e) => minLength(e, 4)}
+                                onKeyUp={(e) => minLength(e, 4)}
                             />
                             {errors.description &&
                                 <p className="create-error">
-                                    Description should be at least 4 characters long!
+                                    Description must be at least 4 characters long!
                                 </p>
                             }
                         </div>
@@ -138,11 +138,11 @@ export default function Map() {
                                 placeholder="category..."
                                 value={values.category}
                                 onChange={changeHandler}
-                                onBlur={(e) => minLength(e, 4)}
+                                onKeyUp={(e) => minLength(e, 4)}
                             />
                             {errors.category &&
                                 <p className="create-error">
-                                    Category should be at least 4 characters long!
+                                    Category must be at least 4 characters long!
                                 </p>
                             }
                         </div>

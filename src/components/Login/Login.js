@@ -56,7 +56,7 @@ export default function Login() {
                     onBlur={(e) => isValidEmail(e)}
                 />
                 {errors.email &&
-                    <p className="create-error">Invalid email!</p>
+                    <p className="create-error">Invalid email format!</p>
                 }
                 <label htmlFor="password">Password:</label>
                 <input
@@ -65,10 +65,10 @@ export default function Login() {
                     name="password"
                     placeholder="Password"
                     onChange={changeHandler}
-                    onBlur={(e) => minLength(e, 3)}
+                    onKeyUp={(e) => minLength(e, 3)}
                 />
                 {errors.password &&
-                    <p className="create-error">Password should be at least 3 characters long!</p>
+                    <p className="create-error">Password must be at least 3 characters long!</p>
                 }
                 <input
                     type="submit"

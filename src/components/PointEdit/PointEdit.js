@@ -61,11 +61,11 @@ export default function PointEdit({
                                         // defaultValue={point.name}
                                         value={values.name}
                                         onChange={changeHandler}
-                                        onBlur={(e) => minLength(e, 3)}
+                                        onKeyUp={(e) => minLength(e, 3)}
                                     />
                                     {errors.name &&
                                         <p className="form-error">
-                                            Name should be at least 3 characters long!
+                                            Name must be at least 3 characters long!
                                         </p>}
                                 </div>
                             </div>
@@ -81,11 +81,11 @@ export default function PointEdit({
                                         // defaultValue={point.description}
                                         value={values.description}
                                         onChange={changeHandler}
-                                        onBlur={(e) => minLength(e, 4)}
+                                        onKeyUp={(e) => minLength(e, 4)}
                                     />
                                     {errors.description &&
                                         <p className="form-error">
-                                            Description should be at least 4 characters long!
+                                            Description must be at least 4 characters long!
                                         </p>}
                                 </div>
                             </div>
@@ -101,11 +101,11 @@ export default function PointEdit({
                                         // defaultValue={point.category}
                                         value={values.category}
                                         onChange={changeHandler}
-                                        onBlur={(e) => minLength(e, 4)}
+                                        onKeyUp={(e) => minLength(e, 4)}
                                     />
                                     {errors.category &&
                                         <p className="form-error">
-                                            Category should be at least 4 characters long!
+                                            Category must be at least 4 characters long!
                                         </p>}
                                 </div>
                             </div>

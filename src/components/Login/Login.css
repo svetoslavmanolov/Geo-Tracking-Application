@@ -1,0 +1,67 @@
+#loginPage {
+  text-align: center;
+  margin-top: 5px;
+  position: relative;
+  padding-bottom: 6px;
+}
+
+#loginForm {
+  padding-top: 1%;
+  display: inline-block;
+  margin-top: 5%;
+  background: rgba(180, 50, 240, 0.7);
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+#loginForm label {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+
+}
+
+#loginForm input {
+  background: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 16px;
+  /* width: 50%; */
+}
+
+#loginForm input[type="submit"] {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 40%;
+  font-size: 20px;
+}
+
+#loginForm .create-error {
+  color: orangered;
+  font-size: 15px;
+  margin: 1px;
+}
+
+section {
+  text-align: center;
+  margin-top: 5px;
+  position: relative;
+  padding-bottom: 6px;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  width: 200px;
+  border: 2px solid lightsteelblue;
+  padding: 5px;
+}
+

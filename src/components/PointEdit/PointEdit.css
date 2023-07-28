@@ -1,0 +1,80 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.75);
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+}
+
+.user-container h2 {
+  margin-top: 0.3rem;
+}
+
+.modal {
+  width: 20rem;
+  height: 26rem;
+  position: fixed;
+  border-radius: 10px;
+  background-color: white;
+  padding: 1rem;
+  z-index: 30;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.form-row .input-wrapper {
+  margin-left: -1.8em;
+}
+
+.form-group {
+  margin-right: 10px;
+  width: 47%;
+}
+
+.form-group .form-error {
+  color: #d9534f;
+  min-height: 20px;
+}
+
+#form-actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#action-save {
+  width: 5em;
+  height: 3em;
+  margin-right: 2em;
+  border-radius: 1em;
+  background-color: rgb(81, 194, 123);
+  font-weight: bold;
+}
+
+#action-cancel {
+  width: 5em;
+  height: 3em;
+  border-radius: 1em;
+  background-color: rgb(231, 108, 108);
+  font-weight: bold;
+}

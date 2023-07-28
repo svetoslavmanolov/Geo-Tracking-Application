@@ -1,0 +1,110 @@
+.container {
+  display: block;
+  font-size: 16px;
+}
+
+.controls {
+  width: 100%;
+  padding: 0.5rem;
+  background: rgba(180, 50, 240, 0.3);
+  color: #fff;
+}
+
+.container p {
+  margin-top: 1%;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+  margin: 0px;
+  background-color: rgba(180, 50, 240, 0.3);
+}
+
+.map-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.map {
+  width: 100%;
+  height: 100vh;
+}
+
+.createForm {
+  display: block;
+  padding-top: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background: rgba(180, 50, 240, 0.45);
+  border: 1px solid rgba(180, 50, 240, 0.5);
+  border-radius: 10px;
+}
+
+.createFields {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.createFields input {
+  background: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  width: 90%;
+}
+
+@media (max-width: 1100px) {
+  .createForm {
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+
+  .createFields {
+    flex-direction: column;
+  }
+
+  .createFields input {
+    width: 70%;
+  }
+}
+
+@media (max-width: 720px) {
+  .createForm {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .createFields input {
+    width: 80%;
+  }
+}
+
+.createFields .submitButton:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.createFields input[type="text"] {
+  margin-bottom: 2%;
+}
+
+.createForm input[type="submit"] {
+  margin-top: 2%;
+  width: auto;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: rgba(220, 255, 225, 0.7);
+}
+
+.controls label {
+  font-size: 1.3rem;
+  color: black;
+}
+
+.createForm .create-error {
+  color: orangered;
+  font-size: 0.8em;
+  margin: 1px;
+}

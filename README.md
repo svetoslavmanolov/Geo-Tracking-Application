@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Geo Tracking App
+Use `Geo Tracking App` when you need to explore and create new places all over the world. Just launch the app, log in and can now create, retrieve and manipulate the information you need.\
+The application is `responsive` to all display types.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Usage
+`Geo Tracking App` allows logged in users to browse the map using integrated map component of `Google Maps API` as well as create new locations. There is a navigation bar through which users can access the various pages of the application.
 
-## Available Scripts
+`Map` page - from the map page, users can create their own locations by first marking the desired location by double-clicking on the map, after which they must fill in additional information about their location such as name, description, and category. For a better UX, there are checks implemented for all fields from the map page.
+All fields in the map page for creating a new location are checked for the length of the entered text. There is a check if a location is selected before creation. When trying to create a location with the same coordinates, an alert window pops up. There is also a notification when a new location is successfully created.\
 
-In the project directory, you can run:
+`Points List` page - users can view already created locations as well as edit, delete and mark them directly on the map using the corresponding buttons for this. Users can filter by name, description or category among already created locations, as well as sort in ascending and descending order by name, description or category. Created text length check in `edit form' fields.
 
-### `npm start`
+`Login` page - when user try to log in, a check is made for the correct email format and length of user's password.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies involved
+The following technologies are used in the Geo Tracking App:\
+`JavaScript, React, HTML, CSS`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to start the app
+All you have to do is run the following commands in the project directory:
 
-### `npm test`
+`npm install` - to install the required "Dependencies" 
+`npm start` - to start the app
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The application will then run in your browser on [http://localhost:3000](http://localhost:3000)\
+The page will reload when you make changes. You may also see any errors in the console.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

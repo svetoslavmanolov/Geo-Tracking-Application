@@ -1,0 +1,85 @@
+body {
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    background-image: url(../../../public/image/background.jpg);
+    background-attachment: fixed;
+    background-position-y: center;
+    background-size: auto 100%;
+}
+
+* {
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+.introduction {
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow-wrap: break-word;
+}
+
+.introduction h1 {
+    color: white;
+    letter-spacing: 3px;
+    font-size: 2em;
+    text-align: center;
+    border: 1px solid rgba(180, 50, 240, 0.5);
+    border-radius: 10px;
+    background-color: rgba(180, 50, 240, 0.3);
+}
+
+.introduction p {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    border: 1px solid rgba(180, 50, 240, 0.5);
+    border-radius: 10px;
+    background-color: rgba(180, 50, 240, 0.3);
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+input[type=submit]:hover,
+ul>li:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+li {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 7em;
+    text-align: center;
+    background-color: rgba(130, 130, 131, 0.6);
+}
+
+nav {
+    background: rgba(105, 105, 105, 0.35);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+nav>ul {
+    text-align: center;
+    margin: 0 5px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    font-size: 1em;
+}

@@ -1,0 +1,35 @@
+.actions {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 120px !important;
+  margin: auto;
+}
+
+.btn:hover {
+  opacity: 1;
+  box-shadow: 1px 2px 8px black;
+}
+
+.btn {
+  padding: 5px;
+  color: black;
+  opacity: 0.9;
+  width: 30px;
+  height: 30px;
+}
+
+.delete-btn {
+  background-color: #d9534f;
+  border-radius: 5px;
+}
+
+.edit-btn {
+  background-color: #5cb85c;
+  border-radius: 5px;
+}
+
+.toMap-btn {
+  background-color: aqua;
+  border-radius: 5px;
+}

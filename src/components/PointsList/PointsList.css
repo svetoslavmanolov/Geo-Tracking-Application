@@ -75,7 +75,26 @@
   background: rgba(70, 230, 250, 0.3);
 }
 
+@media (max-width: 768px) {
+  .table {
+    width: 800px;
+  }
 
+  .table-wrapper::-webkit-scrollbar {
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .table-wrapper::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+    background: #999;
+  }
+
+  .table td,
+  .table th {
+    text-align: center;
+  }
+}
 
 .map-container {
   width: 100%;
@@ -155,5 +174,25 @@
 
 .criteria {
   margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .search-form {
+    flex-direction: column;
+    height: 8rem;
+  }
+
+  .search-form h2 {
+    display: block;
+    margin: 0;
+  }
+
+  .search-input-container {
+    width: 100%;
+  }
+
+  .filter {
+    justify-content: center;
+  }
 }
 

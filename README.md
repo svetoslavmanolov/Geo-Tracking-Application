@@ -23,7 +23,8 @@ All you have to do is run the following commands in the project directory:
 `npm start` - to start the app
 
 You will need `Google API Keys` to take advantage of the full functionality of the app.\
-For your convenience, open the application from the link provided.
+For your convenience, open the application from the link provided.\
+`[https://geo-tracking-application.vercel.app/]`
 
 The application will then run in your browser on [http://localhost:3000](http://localhost:3000)\
 The page will reload when you make changes. You may also see any errors in the console.

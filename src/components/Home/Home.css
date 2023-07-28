@@ -1,5 +1,5 @@
 body {
-    background-color: bisque;
+    /* background-color: bisque; */
     margin: 0;
     padding: 0;
     background-image: url(../../../public/image/background.jpg);
@@ -9,7 +9,7 @@ body {
 }
 
 * {
-    font-family: cursive;
+    font-family: sans-serif;
     box-sizing: border-box;
 }
 
@@ -59,6 +59,18 @@ li {
     width: 7em;
     text-align: center;
     background-color: rgba(130, 130, 131, 0.6);
+}
+
+@media (max-width: 540px) {
+    li {
+        width: 10em;
+    }
+}
+
+@media (max-width: 400px) {
+    li {
+        width: 7em;
+    }
 }
 
 nav {
